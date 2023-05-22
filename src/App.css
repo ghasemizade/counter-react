@@ -37,16 +37,27 @@
   align-items: center;
 
 }
-.left-btn{
+.left-btn .add-count{
   margin: 1.5rem;
-  width: 10rem;
   padding: 2rem;
   background-color: rgb(67, 172, 67);
   border-radius: 1rem;
 }
-.right-btn{
+p{
+  font-size: 3rem;
+}
+button{
+  border: none;
+  font-size: 1.4rem;
+  width: 14rem;
+  color: #fff;
+  font-weight: 600;
+}
+button:hover{
+  cursor: pointer;
+}
+.right-btn .del-count{
   margin: 1.5rem;
-  width: 10rem;
   padding: 2rem;
   background-color: tomato;
   border-radius: 1rem;

@@ -11,10 +11,10 @@ function App() {
         <div className="btns-container">
             <div className="btn-dir">
             <div className="left-btn">
-              <a href='#' className='add-count'>Add Count</a>
+              <button href='#' className='add-count'>Add Count</button>
               </div>
               <div className="right-btn">
-              <a href='#' className='del-count'>Lower Count</a>
+              <button href='#' className='del-count'>Lower Count</button>
               </div>
             </div>
         </div>
